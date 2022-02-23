@@ -19,13 +19,13 @@ function lampOff (){
     }
 }
 
-function lampBroken(){
+function lampBroken (){
     lamp.src = './img/quebrada.jpg'
 }
 
 turnOn.addEventListener ('click', lampOn)
 turnOff.addEventListener ('click', lampOff)
-
+repair.addEventListener ('click', lampOff)
 
 lamp.addEventListener ('mouseover', lampOn)
 lamp.addEventListener ('mouseleave', lampOff)
