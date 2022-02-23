@@ -1,6 +1,7 @@
 const turnOn = document.getElementById('turnOn')
 const turnOff = document.getElementById('turnOff')
 const lamp = document.getElementById('lamp')
+const repair = document.getElementById('repair')
 
 function isLampBroken(){
     return lamp.src.indexOf ('quebrada') > -1
