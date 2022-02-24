@@ -25,6 +25,7 @@ function lampOff (){
 function toRepair (){
     if ( isLampBroken() ){
         lamp.src = './img/desligada.jpg'
+        document.body.style.background = 'black'
     }
 }
 
